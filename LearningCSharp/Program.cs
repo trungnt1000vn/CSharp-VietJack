@@ -58,8 +58,8 @@ namespace LearningCSharp
             //Console.WriteLine("Trung binh cong cua bon so la : " + tb);
             Console.WriteLine("Hello Motherfucker");
             //bai 5
-            decimal dof;
-            decimal doc;
+            double dof;
+            double doc;
             Console.WriteLine("Ban muon doi do F sang C hay C sang F ? Nhap 1 neu F=> C, nhap 2 neu C=>F :");
             int choice = Convert.ToInt32(Console.ReadLine());
             while (choice != 1 && choice != 2)
@@ -72,15 +72,15 @@ namespace LearningCSharp
                 case 1:
                     Console.WriteLine("Nhap vao do F : ");
 
-                    dof = Convert.ToDecimal(Console.ReadLine());
-                    doc = (dof-32) * (5 / 9);
+                    dof = Convert.ToDouble(Console.ReadLine());
+                    doc = (dof-32) * (0.555);
                     Console.WriteLine("Do C la  : "+doc);
                     break;
                 case 2:
                     Console.WriteLine("Nhap vao do C : ");
 
-                    doc = Convert.ToDecimal(Console.ReadLine());
-                    dof = (doc  * (9 / 5))+ 32;
+                    doc = Convert.ToDouble(Console.ReadLine());
+                    dof = (doc  * (1.8))+ 32;
                     Console.WriteLine("Do F la  : " + dof);
                     break;
                 default:

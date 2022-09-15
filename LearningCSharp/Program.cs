@@ -15,20 +15,20 @@ namespace LearningCSharp
         static void Main(string[] args)
         {
             //bai 1
-            //int a, b;
-            //Console.Write("Nhap vao so thu nhat :");
-            //a = Convert.ToInt32(Console.ReadLine());
-            //Console.Write("Nhap vao so thu hai :");
-            //b = Convert.ToInt32(Console.ReadLine());
-            //Console.WriteLine("-----------------");
-            //int sum = a + b;
-            //int minus = a - b;
-            //int mul = a * b;
-            //float th = (float)a / (float)b;
-            //Console.WriteLine("Tong cua hai so la : " + sum);
-            //Console.WriteLine("Tich cua hai so la : " + mul);
-            //Console.WriteLine("Hieu cua hai so la : " + minus);
-            //Console.WriteLine("Thuong cua hai so la : " + th);
+            int a, b;
+            Console.Write("Nhap vao so thu nhat :");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Nhap vao so thu hai :");
+            b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("-----------------");
+            int sum = a + b;
+            int minus = a - b;
+            int mul = a * b;
+            float th = (float)a / (float)b;
+            Console.WriteLine("Tong cua hai so la : " + sum);
+            Console.WriteLine("Tich cua hai so la : " + mul);
+            Console.WriteLine("Hieu cua hai so la : " + minus);
+            Console.WriteLine("Thuong cua hai so la : " + th);
             //bai 2
             //int x, y;
             //x = 1;
